@@ -1,0 +1,484 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+body{
+    background-color: #191a20;
+    margin: 0;
+    padding: 0;
+    font: 12px/1.5 PingFangSC-Regular, Helvetica, Arial, Microsoft Yahei, sans-serif;
+}
+#head{
+  z-index: 100;
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 497px);
+  width: 994px;
+  height: 64px;
+  margin: 0px auto;
+  /* border: 1px solid red; */
+}
+
+#icon{
+  width: 110px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  float: left;
+  /* border: 1px solid red; */
+}
+#icon img{
+  width: 110px;
+  height: auto;
+}
+
+#search{
+  width: 700px;
+  height: 64px;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  /* border: 1px solid red; */
+}
+
+
+#sinput{
+  /* border: 1px solid red; */
+  width: 320px;
+  height: 36px;
+  border-radius: 4px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.18);
+}
+
+#sinput input{
+  border: 0px;
+  outline: 0px;
+  background-color: transparent;
+  width: 141px;
+  margin-left: 12px;
+}
+#sinput input::-webkit-input-placeholder{
+  color: rgba(255, 255, 255, 0.7);
+}
+#sinput input:hover::-webkit-input-placeholder{
+  color: white;
+}
+
+
+/* 热搜榜 */
+.shot{
+  width: 59px;
+  height: 36px;
+  font-size: 14px;
+  display: flex;
+   align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+
+}
+.shot>img{
+   width: 10px;
+   height: auto;
+   margin-right: 3px;
+}
+  
+/* 分割线 */
+.shr{
+  width: 1px;
+  height: 20px;
+  margin: 0px 10px;
+  background: linear-gradient(transparent,rgba(255, 255, 255, 0.2),transparent);
+}
+
+/* 搜全网 */
+.sall{
+  width: 87px;
+  height:36px ;
+  display: flex;
+  align-items: center;
+  color: #16e067;
+  font-size: 14px;
+  cursor: pointer;
+}
+.sall>img{
+  width: 21px;
+  height: auto;
+}
+
+
+/* 下拉菜单 */
+#sinput ul{
+   display: none;
+   width: 320px;
+   height: 361px;
+   background-color: #121318;
+   opacity: 0.9;
+   position: absolute;
+   left: 0px;
+   top: 38px;
+}
+#sinput>ul>li:first-child{
+   color: rgba(255, 255, 255, 0.4);
+   font-size: 14px;
+   line-height: 32px;
+   padding-left: 15px;
+}
+#sinput>ul>li:not(:first-child){
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    cursor: pointer;
+    padding-left: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+#sinput>ul>li>span:first-child{
+  background: #343537;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+   border-radius: 2px;
+   display: inline-block;
+   text-align: center;
+}
+#sinput>ul>li:nth-child(-n+4)>span:first-child{
+  background: #16e067;
+}
+#sinput>ul>li:hover:not(:first-child){
+  cursor: pointer;
+  background-color: #444444;
+  
+}
+#sinput>ul>li>span:nth-child(2):hover{
+  color: #00cc4c;
+}
+
+
+
+/*图标列表 */
+#sicon{
+  width: 284px;
+  height: 36px;
+  display: flex;
+  /* border: 1px solid red; */
+}
+#sicon>div{
+  width: 49px;
+  height: 36px;
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+  cursor: pointer;
+}
+#sicon>div:first-child{
+  position: relative;
+}
+#sicon>div>img{
+  width: 26px;
+  height: 26px;
+}
+#sicon>div>span{
+  display: none;
+}
+#sicon>div:hover>span{
+  display: block;
+  color: #16e067;
+}
+#sicon>div:hover>img{
+  width: 16px;
+  height: 16px;
+}
+#sicon>div:first-child:hover>span{
+  color: gold;
+}
+#sicon>div:nth-of-type(2):hover>img{
+  content: url(../images/head/game-green.png);
+}
+#sicon>div:nth-of-type(3):hover>img{
+  content: url(../images/head/upload-green.png);
+}
+#sicon>div:nth-of-type(4):hover>img{
+  content: url(../images/head/TV-green.png);
+}
+#sicon>div:nth-of-type(5):hover>img{
+  content: url(../images/head/bell-green.png);
+}
+#sicon>div:nth-of-type(6):hover>img{
+  content: url(../images/head/clock-green.png);
+}
+
+
+
+/* VIP下拉菜单 */
+.listdown{
+  display: none;
+  width: 345px;
+  height: 264px;
+  border-radius: 10px;
+  position: absolute;
+  left: -160px;
+  top: 25px;
+  background-color: #191a20;
+   margin: 13px 10px 13px 10px;
+  /* border: 1px solid pink; */
+}
+.listop{
+   width: 0px;
+   height: 0px;
+   border: 7px solid transparent;
+   border-bottom:7px solid #191a20;
+   position: absolute;
+   top: -14px;
+   left: 165px;
+}
+.listright{
+  width: 165px;
+  height: 200px;
+  float: right;
+  text-align: center;
+  margin: 13px 5px 0px 0px;
+  /* border: 1px solid pink; */
+}
+.listright>img{
+   width: auto;
+   height: 200px;
+}
+.listleft{
+  width: 165px;
+  height: 160px;
+  float: left;
+  margin: 5px 0px 0px 5px;
+}
+.listleft>ul>li{
+  display: flex;
+  align-items: center;
+}
+.listleft>ul>li>img{
+   width: 20px;
+   height: 17px;
+   margin-left: 10px;
+   margin-right: 5px;
+}
+.listleft>ul>li>span{
+  line-height: 40px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.listleft>ul>li>span:hover{
+  color: #e2b987;
+  cursor: pointer;
+}
+.listbottom{
+  font-size: 14px;
+  width: 280px;
+  height: 32px;
+  text-align: center; 
+  margin: 0px auto;
+  line-height: 32px;
+  margin-top: 220px;
+  background: linear-gradient(90deg,#ffe4b2,#c79354);
+  color: #68400b;
+}
+.listbottom:hover{
+  cursor: pointer;
+  background: linear-gradient(90deg,#ffe4b2,#ffe4b2);
+}
+
+
+
+
+
+
+/* 用户登陆 */
+#suser{
+  width: 64px;
+  height: 36px; 
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: rgba(255, 255, 255, 0.5);
+  /* border: 1px solid red; */
+}
+#suser img{
+  width: 28px;
+  height: 28px;
+  margin-right: 6px;
+}
+#suser .point{
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+/* 以下为轮播区域 */
+#lunbo{
+  width: 100%;
+  height: 447px;
+  position: fixed;
+  top: 0px;
+  background-color: #191a20;
+}
+#content{
+  width: 994px;
+  height: 447px;
+  margin: 0px auto;
+  position: relative;
+}
+.simg{
+  width: 100%;
+  height: 447px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.simg img{
+  width: auto;
+  height: 100%;
+}
+
+
+/* 阴影效果 */
+.ltop{
+  width: 100%;
+  height: 160px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(#191a20,transparent);
+}
+.lleft{
+  width: 260px;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(90deg,#191a20,transparent);
+}
+.lbottom{
+  width: 100%;
+  height: 160px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: linear-gradient(transparent,#191a20);
+}
+.lright{
+  width: 260px;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background: linear-gradient(90deg,transparent,#191a20);
+}
+
+/* 轮播文字 */
+.items{
+  width: 200px;
+  height: auto;
+  position: absolute;
+  right: 6px;
+  top: 70px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  /* border: 1px solid pink; */
+}
+.items li>p:nth-of-type(2){
+  display: none;
+}
+.items img{
+  display: none;
+  width: 30px;
+  height: 18px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.items li{
+  margin: 3px 0px;
+  cursor: pointer;
+}
+.items p{
+  padding: 3px 0px;
+}
+.items li.xuan{
+  background: linear-gradient(90deg,transparent,rgba(255, 255, 255, 0.3),transparent);
+}
+.items li.xuan p:first-child{
+  font-size: 24px;
+  color: white;
+}
+.items li.xuan p:nth-of-type(2){
+  font-size: 12px;
+  color: white;
+  display: block;
+}
+.items li.xuan img{
+  display: inline-block;
+}
+
+
+/* 图文列表 */
+#imglist{
+  width: 994px;
+  height: auto;
+  position: relative;
+  margin: 0px auto;
+  margin-top: 384px;
+  border: 1px solid pink;
+}
+#filecontent{
+  height: 100px;
+  width: auto;
+  border: 1px solid pink;
+  background:linear-gradient(transparent,#191a20);
+}
+.fleft{
+  width: 729px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid red;
+}
+.fleft>div{
+  height: auto;
+  text-align: center;
+}
+.fleft>div>p:first-child{
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  
+}
+.fleft>div>p:not(:first-child)
+{
+  font-size: 13px;
+  line-height: 24px;
+}
+.fleft span{
+  font: 14px 700 Impact;
+  color: transparent;
+  display: block;
+  position: relative;
+  top: -14px;
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.5),transparent);
+  -webkit-background-clip: text;
+}
+
+
+#piccontent{
+  height: 125px;
+  width: auto;
+  border: 1px solid pink;
+}
