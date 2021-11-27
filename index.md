@@ -1,37 +1,69 @@
-## Welcome to GitHub Pages
+-----------------------------------
+<html lang="en">
+<head>
+    <style>
+        .icon{
+            text-align: center;
+        }
+        .icon>span{
+            font-size: 30px;
+        }
+        .icon>img{
+            width: 30px;
+            height: auto;
+        }
+        .left{
+             text-align: center;
+        }
+        .right{
+            float: right;
+            text-align: center;
+            color: pink;
+            font-size: large;
+        }
+        .right>span>img{
+            width: 20px;
+            height: auto;
+        }
+        .left>img{
+            float: left;
+        }
+        .end{
+            text-align: center;
+        }
+    </style>
+</head>
 
-You can use the [editor on GitHub](https://github.com/H539251932/mohao.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<body>
+    <div id="momo">
+        <div class="icon">
+            <img src="https://i.ibb.co/GQhcvZq/cnmsb05.png" alt="cnmsb05" border="0">
+            <span>顺其自然</span>
+        </div>
+      <div class="left">
+          <img src="https://i.ibb.co/37kP24W/image.png" alt="">
+         </div>
+         <div>
+        <ul class="right">
+            <span><img src="https://i.ibb.co/SdWvsGd/cnmsb01.png" alt="cnmsb01" border="0"><a href="https://mohao99.coding.net/public/"><span>代码</span></a></span><br>
+            <span><img src="https://i.ibb.co/ng0mFk0/cnmsb02.png" alt="cnmsb02" border="0"><a href="https://www.ranwen8.com/"><span>小说</span></a></span><br>
+            <span><img src="https://i.ibb.co/wRVp7hv/cnmsb03.png" alt="cnmsb03" border="0"><a href="https://yhdm.nl/"><span>动漫</span></a></span><br>
+            <span><img src="https://i.ibb.co/pZTvVKQ/cnmsb04.png" alt="cnmsb04" border="0"><a href="https://www.csdn.net/"><span>CSDN</span></a></span><br>
+            <span><img src="http://ys-e.ys168.com/604774040/318440212/p535472495UM6JkmG5X7fa/cnmsb07.png" ><a href="https://www.bing.com/"><span>BING</span></a></span><br>
+            <span><img src="https://i.ibb.co/x5Nbt90/cnmsb07.png" alt="cnmsb07" border="0"><a href="https://www.github.com/"><span>GITHUB</span></a></span><br>
+            
+         </ul>
+         </div>
+    </div>
+        <div class="end">
+           <p>以上为胡浩版权所有，盗版必究，需要请联系我或登录<a href="http://www.h539251932.ys168.com/">顺其自然空间</a></p>
+        </div>
+</body>
+</html>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/H539251932/mohao.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
