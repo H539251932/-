@@ -1,7 +1,10 @@
------------------------------------
+
 <html lang="en">
 <head>
     <style>
+        body{
+            background: url("./img/log.svg");  
+        }
         .icon{
             text-align: center;
         }
@@ -16,7 +19,6 @@
              text-align: center;
         }
         .right{
-            float: right;
             text-align: center;
             color: pink;
             font-size: large;
@@ -26,7 +28,8 @@
             height: auto;
         }
         .left>img{
-            float: left;
+            width: 50px;
+            height: auto;
         }
         .end{
             text-align: center;
@@ -41,12 +44,11 @@
             <span>顺其自然</span>
         </div>
       <div class="left">
-          <img src="https://i.ibb.co/37kP24W/image.png" alt="">
          </div>
          <div>
         <ul class="right">
-            <span><img src="https://i.ibb.co/SdWvsGd/cnmsb01.png" alt="cnmsb01" border="0"><a href="https://mohao99.coding.net/public/"><span>代码</span></a></span><br>
-            <span><img src="https://i.ibb.co/ng0mFk0/cnmsb02.png" alt="cnmsb02" border="0"><a href="https://www.ranwen8.com/"><span>小说</span></a></span><br>
+            <span><img src="https://i.ibb.co/SdWvsGd/cnmsb01.png" alt="cnmsb01" border="0"><a href="https://mohao99.coding.net/public/"><span>代码</span></a></span>
+            <span><img src="https://i.ibb.co/ng0mFk0/cnmsb02.png" alt="cnmsb02" border="0"><a href="https://www.ranwen8.com/"><span>小说</span></a></span>
             <span><img src="https://i.ibb.co/wRVp7hv/cnmsb03.png" alt="cnmsb03" border="0"><a href="https://yhdm.nl/"><span>动漫</span></a></span><br>
             <span><img src="https://i.ibb.co/pZTvVKQ/cnmsb04.png" alt="cnmsb04" border="0"><a href="https://www.csdn.net/"><span>CSDN</span></a></span><br>
             <span><img src="http://ys-e.ys168.com/604774040/318440212/p535472495UM6JkmG5X7fa/cnmsb07.png" ><a href="https://www.bing.com/"><span>BING</span></a></span><br>
