@@ -3,7 +3,7 @@
 <head>
     <style>
         body{
-            background: url("./img/log.svg");  
+            background: url("http://ys-f.ys168.com/604774045/318317899/kmG5X7k336633557SM87f5/4.jpg");  
         }
         .icon{
             text-align: center;
