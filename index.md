@@ -3,7 +3,7 @@
 <head>
     <style>
         body{
-            background: url("http://ys-f.ys168.com/604774045/318317899/kmG5X7k336633557SM87f5/4.jpg");  
+            background: url("http://ys-j.ys168.com/604774014/318442095/t72377L3I4LLK7XkjJ6W39b/[%E9%A2%84%E8%A7%88]881c77f483728af120cfc7b328c43df7(1).jpg");  
         }
         .icon{
             text-align: center;
