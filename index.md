@@ -3,7 +3,7 @@
 <head>
     <style>
         body{
-            background: url("http://ys-j.ys168.com/604774014/318442095/t72377L3I4LLK7XkjJ6W39b/[%E9%A2%84%E8%A7%88]881c77f483728af120cfc7b328c43df7(1).jpg");  
+            background: url("http://ys-j.ys168.com/604774065/318442094/ijL8U4w33765K5H6LK6X10/[%E9%A2%84%E8%A7%88]2021_0823_150305.png");  
         }
         .icon{
             text-align: center;
