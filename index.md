@@ -112,7 +112,7 @@ clip-path: polygon(50% 0%, 70% 30%, 100% 40%, 80% 66%, 80% 100%, 50% 80%, 20% 10
                 }
             }
         </style>
-    <script src="sds.js"></script>
+    <script src="./sds.js"></script>
 </head>
 
 <ul class="tree">
