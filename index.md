@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2022</title>
-    <style>
-        
+    <style>     
 .num {
     width: 120px;
     display: grid;
@@ -82,6 +81,7 @@
   
     </style>
 </head>
+    
 <body>
     <div class="num two">
         <i></i>
