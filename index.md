@@ -6,6 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2022</title>
     <link rel="stylesheet" href="./2022.css">
+    <style>
+        
+.num {
+    width: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    transform-style: preserve-3d;
+  }
+  .num > * {
+    background: #333;
+    aspect-ratio: 1;
+    display: grid;
+    transform-style: preserve-3d;
+  }
+  
+  .num > *::before,
+  .num > *::after {
+    content: "";
+    grid-area: 1/1;
+  }
+  .num > *::before {
+    background: #222;
+    transform-origin: right;
+    transform: rotateY(-90deg);
+  }
+  .num > *::after {
+    background: #111;
+    transform-origin: bottom;
+    transform: rotateX(90deg);
+  }
+  
+  .two:before {
+    content: "";
+    grid-area: 2/1 / span 1 / span 2;
+  }
+  .two:after {
+    content: "";
+    grid-area: 4/2 / span 1 / span 2;
+  }
+  .zero:before {
+    content: "";
+    grid-area: 2/2 / span 3 / span 1;
+  }
+  .last {
+    transform: translate(70%) rotateY(90deg);
+    transform-origin: left;
+  }
+  .last.num > *::before {
+    background: #333;
+    transform-origin: left;
+    transform: rotateY(90deg);
+  }
+  .last.num > * {
+    background: #222;
+  }
+  body {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 50px;
+    transform: perspective(5000em) rotateY(0deg) rotateX(0deg);
+    transform-style: preserve-3d;
+    transition:1.2s;
+  }
+  html:hover body{
+    transform: perspective(70em) rotateY(-41deg) rotateX(27deg);
+  }
+  html {
+    margin: 0;
+    background: #000;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    cursor:pointer;
+  }
+  
+    </style>
 </head>
 <body>
     <div class="num two">
