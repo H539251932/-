@@ -1,2 +1,3 @@
->微信公众号排版工具。问题或建议，请公众号留言。
-# https://h539251932.github.io/mohao.github.io/
+#mohao的静态网站介绍
+>实现方式：用html、css以及github提供的page静态网页
+(https://h539251932.github.io/mohao.github.io/)
