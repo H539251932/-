@@ -1,4 +1,4 @@
-# mohao[静态网站](https://h539251932.github.io/mohao.github.io/)的介绍
+# mohao[博客网站](https://h539251932.github.io/mohao.github.io/)的介绍
 
 >实现方式：用html、css、markdown以及github提供的page静态网页
 
@@ -19,4 +19,3 @@
 ## 3.联系交流
 ![有问题加微信](https://mohao99.coding.net/p/HH/d/HTML/git/raw/master/%E5%9B%BE%E7%89%87/%E5%BE%AE%E4%BF%A12.jpg?download=true)
 
-* mohao [作者](https://h539251932.github.io/mohao.github.io/ "他是谁")
