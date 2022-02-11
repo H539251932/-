@@ -20,37 +20,37 @@ about: "这里是 mohao 的个人博客，创建于 2021 年。<br />
 #菜单配置
 nav:
   - text: 首页
-    url: /ibnew/index.html
+    url: /mohao/index.html
     icon: icon-home
     class: home
-  - text: 文章归档
-    url: /ibnew/archives.html
+  - text: 文章
+    url: /ibnew/text.html
     icon: icon-reorder
     class: none
   - text: 关于我
-    url: /ibnew/contact.html
+    url: /ibnew/about.html
     #url: /ibnew/about/
     icon: icon-envelope-alt
     class: none
   - text: 联系我
-    url: https://twitter.com/policetouzi
+    url: https://h539251932.github.io
     icon: icon-heart
     class: none
   - text: 博客源代码
-    url: https://github.com/touzi/ibnew
+    url: https://github.com/h539251932/mohao
     icon: icon-github
     class: none
 
 page:
   - text: 文章分类
-    url: /archives.html
+    url: /text.html
     last: true
   - text: 友情链接
     url: /links.html
     last: true
   - text: 关于我
-    url: /contact.html
+    url: /about.html
     last: false
 
 author:
-  name: touzi
+  name: mohao
