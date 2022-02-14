@@ -1,4 +1,4 @@
-#[顺其自然](https://h539251932.github.io/)
+# [顺其自然](https://h539251932.github.io/)
 > 这里是mohao的博客
 
 ## hello，欢迎来到mohao的博客
